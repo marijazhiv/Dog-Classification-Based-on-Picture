@@ -21,8 +21,9 @@ Before you begin, ensure you have the following libraries installed:
 - `matplotlib`
 - `tensorflow`
 
+## Installation
 You can install them using pip:
-```bash
+bash
 pip install numpy pandas matplotlib tensorflow
 Installation
 Clone the repository:
@@ -39,7 +40,8 @@ Run the script: In your terminal, run the script:
 bash
 Copy code
 python your_script_name.py
-Usage
+
+## Usage
 Train the model: If the model does not exist, the script will train it using the data in the images/ directory. The model will be saved as dog_classifier_model.h5.
 
 Prediction: After training, you can classify new images using the following code:
@@ -59,7 +61,7 @@ Results: The prediction results will be printed in the console.
 ## Data Structure
 images/: Directory containing dog images. Each image should be named as <class>_<number>.jpg.
 dog_classifier_model.h5: The saved model after training.
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 vbnet
