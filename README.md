@@ -56,7 +56,7 @@ predictions = model.predict(img_array)
 predicted_class = np.argmax(predictions[0])
 Results: The prediction results will be printed in the console.
 
-Data Structure
+## Data Structure
 images/: Directory containing dog images. Each image should be named as <class>_<number>.jpg.
 dog_classifier_model.h5: The saved model after training.
 License
